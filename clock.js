@@ -13,9 +13,16 @@ function updateClock(){
 
         if(hour == 0){
             hour = 12;
+            quotation.innerText = " An early-morning walk is a blessing for the whole day. – Henry David Thoreau"
         } if(hour > 12){
             hour = hour - 12;
             per = "PM" ;
+            
+        }
+        if (per === 'AM'){
+            quotation.innerText = " An early-morning walk is a blessing for the whole day. – Henry David Thoreau"
+        } else if(per === 'PM'){
+            quotation.innerText = "Each night, when I go to sleep, I die. And the next morning, when I wake up, I am reborn.― Mahatma Gandhi"
         }
 
         Number.prototype.pad = function(digits){
