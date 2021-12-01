@@ -5,9 +5,10 @@
 
 body {
     min-height: 100vh;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
     color: black;
     background-image: url('morning.jpg');
     background-position: center;
@@ -16,16 +17,14 @@ body {
 }
 
 #quote {
-    /* display: flex; */
-    /* justify-content:flex-start; */
+    display: flex; 
+    justify-content:flex-start;
+    margin-bottom: 32px;
 }
 
 
 
 #datetime {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
