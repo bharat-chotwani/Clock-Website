@@ -13,7 +13,6 @@ function updateClock(){
 
         if(hour == 0){
             hour = 12;
-            quotation.innerText = " An early-morning walk is a blessing for the whole day. – Henry David Thoreau"
         } if(hour > 12){
             hour = hour - 12;
             per = "PM" ;
