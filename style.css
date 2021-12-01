@@ -20,7 +20,7 @@ body {
 #datetime {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 200%;
+    width: 50%;
     height: 50vh;
     padding: 0.6rem 0.5rem ;
     border: 3px solid black;
@@ -28,16 +28,31 @@ body {
 }
 
 #date {
-    font-size: 30px;
+    font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 #time {
-    font-size: 50px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
     font-weight: 600;
-
     text-align: center;
     letter-spacing: normal;
+}
+#time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#time span:last-child{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
 }
