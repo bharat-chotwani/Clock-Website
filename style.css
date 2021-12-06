@@ -43,6 +43,30 @@ body {
     color: white;
 }
 
+#formstar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#formstar label {
+    margin: 5px 10px 5px 0;
+    vertical-align: middle;
+}
+
+#formstar input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+#setAlarm:hover {
+    background-color: royalblue;
+}
+
 #quote {
     display: flex; 
     justify-content:flex-start;
@@ -63,6 +87,10 @@ body {
 
 h1 {
     font-size: 8rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 button {
