@@ -45,6 +45,9 @@ In this project, there is a clock, it also has a timer and alarm. The only inten
 (I changed the quote in this code by using 'if and else condition' according to night and morning.)
 
 - Code 👇
+        
+        
+        
         if(hour == 0){
             hour = 12;
         } if(hour > 12){
