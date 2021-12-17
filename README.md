@@ -1,7 +1,7 @@
 # Clock-Website
 
 ![This is Clock App image](images\Clock-app.png)
----------------------------[Clock-application](https://clock-website-bharatchotwani.netlify.app/)---------------------------
+[Clock-application](https://clock-website-bharatchotwani.netlify.app/)
 ______________
 
  ## About Project
@@ -44,13 +44,15 @@ In this project, there is a clock, it also has a timer and alarm. The only inten
 
 (I changed the quote in this code by using 'if and else condition' according to night and morning.)
 
-- if(hour == 0){
+- Code 👇
+        if(hour == 0){
             hour = 12;
         } if(hour > 12){
             hour = hour - 12;
             per = "PM" ;
             
         }
+
         if (per === 'AM'){
             quotation.innerText = " An early-morning walk is a blessing for the whole day. – Henry David Thoreau"
         } else if(per === 'PM'){
