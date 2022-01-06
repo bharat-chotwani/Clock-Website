@@ -25,7 +25,8 @@ body {
     border-bottom-right-radius: 1rem;
     text-align: center;
     padding-top: 1rem;
-    margin-bottom: 1rem;
+    width: 90%;
+    margin-bottom: 5rem;
 }
 
 #navbar .Links{
@@ -45,25 +46,25 @@ body {
 
 #formstar {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: center;
 }
 
 #formstar label {
-    margin: 5px 10px 5px 0;
+    margin-bottom: 1em;
     vertical-align: middle;
 }
 
 #formstar input {
     vertical-align: middle;
-    margin: 5px 10px 5px 0;
+    margin-bottom: 1em;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
-    width: 80%;
+    width: 102%;
 }
 
-#setAlarm:hover {
+button:hover {
     background-color: royalblue;
 }
 
@@ -91,6 +92,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-bottom: 1em;
 }
 
 button {
