@@ -1,6 +1,6 @@
 # Clock-Website
 
-![This is Clock App image](images\Clock-app.png)
+![This is Clock App image](/images/Clock-app.png)
 [Clock-application](https://clock-website-bharatchotwani.netlify.app/)
 ______________
 
